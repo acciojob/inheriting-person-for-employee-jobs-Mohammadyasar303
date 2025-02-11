@@ -25,7 +25,7 @@ class Employee extends Person {
   }
 
   jobGreet() {
-    return `Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`;
+    return `Hello, my name is ${this.name} and I am ${this.age} years old and my job title is ${this.jobTitle}.`;
   }
 }
 
